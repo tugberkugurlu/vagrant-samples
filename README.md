@@ -2,8 +2,8 @@
 
 You need:
 
- - vagrant. Installation guide: https://www.vagrantup.com/docs/installation/
- - VirtualBox
+ - [Vagrant](https://www.vagrantup.com/) (installation guide: https://www.vagrantup.com/docs/installation/)
+ - [VirtualBox](https://www.virtualbox.org/)
 
 First, get the box (the one that has been prepared [here](http://www.hurryupandwait.io/blog/in-search-of-a-light-weight-windows-vagrant-box)):
 
@@ -15,7 +15,7 @@ When you run the below commands, it will:
 
  - get the Windows Server VM up and running on VirtualBox
  - runs the `Get-Process` PowerShell command on the VM
- - destroys the VM afterwards (doesn't remove the box)
+ - destroys the VM afterwards (doesn't remove the box, you may instead want to [HALT](https://www.vagrantup.com/docs/cli/halt.html))
 
 ```
 vagrant up
